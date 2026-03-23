@@ -4,6 +4,8 @@
 Currently available only in Russian.
 Licensed under MIT.
 
+THIS BOT WAS MADE AS A JOKE!!!
+
 Official bot: https://t.me/drochibelno_li_bot
 
 ## Installing
