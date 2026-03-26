@@ -1,6 +1,6 @@
 # Drochibelno Li?
 
-`Drochibelno Li?` or `Дрочибельно ли?` - this is a Telegram bot on aiogram that estimates how much you can masturbate to each photo, video, sticker, GIF, and file that is sent to the group.
+`Drochibelno Li?` or `Дрочибельно ли?` - this is a Telegram bot on aiogram that estimates how much you can masturbate to each photo, video, sticker, GIF, and file that is sent to the group or DMs.
 Currently available only in Russian.
 Licensed under MIT.
 
