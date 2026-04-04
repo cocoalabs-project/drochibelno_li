@@ -13,7 +13,7 @@ load_dotenv()
 
 TOKEN = getenv("TOKEN")
 PROXY = getenv("SOCKS5_PROXY")
-BOT_VERSION = "0.1.0"
+BOT_VERSION = "0.3.0"
 
 if PROXY:
     session = AiohttpSession(proxy=f"socks5://{PROXY}")
@@ -24,7 +24,13 @@ dp = Dispatcher()
 
 @dp.message(Command("start"))
 async def start_command(message: types.Message):
-    await message.reply(f"здарова!\nя оцениваю абсолюдно каждую пикчу, даже не смотря на то что там, и говорю процент дрочибельности на неё\nэтого шедеврального бота сделал @m1lkydev\n\nдрочибельно ли? {BOT_VERSION}")
+    await message.reply(
+        f"здарова!\n\n"
+        "я оцениваю абсолюдно каждую пикчу, даже не смотря на то что там, и говорю процент дрочибельности на неё\n"
+        "ПРОЦЕНТ ФОРМИРУЕТСЯ АВТОМАТИЧЕСКИ И Я НИКАК НЕ КОНТРОЛИРУЮ НА ЧТО БОТ ОТВЕТИТ\n\n"
+        "этого бота сделал @m1lkydev\n\n"
+        f"дрочибельно ли? {BOT_VERSION}"
+    )
 
 @dp.message(F.photo | F.video | F.sticker | F.animation | F.document)
 async def catch_all(message: Message):  
