@@ -6,8 +6,6 @@
 Currently available only in Russian.
 Licensed under MIT.
 
-THIS BOT WAS MADE AS A JOKE!!!
-
 Official bot: https://t.me/drochibelno_li_bot
 
 ## Installing
@@ -23,7 +21,7 @@ cd drochibelno_li
 pip install aiogram aiohttp-socks python-dotenv
 ```
 
-3. Edit the settings in .env
+3. Rename .env.example to .env and edit the settings in that file
 
 4. Run the main.py:
 ```bash
