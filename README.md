@@ -12,7 +12,7 @@ Official bot: https://t.me/drochibelno_li_bot
 
 1. Clone the repository:
 ```bash
-git clone https://codeberg.org/m1lkydev/drochibelno_li
+git clone https://github.com/m1lkydev/drochibelno_li
 cd drochibelno_li
 ```
 
