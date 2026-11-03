@@ -1,29 +1,25 @@
-# Drochibelno Li?
-
-<img src="logo.jpg" width=125>
-
-`Drochibelno Li?` or `Дрочибельно ли?` - this is a Telegram bot on aiogram that estimates how much you can masturbate to each photo, video, sticker, GIF, and file that is sent to the group or DMs.
+# <img src="logo.jpg" align="left" width=125> Drochibelno Li?
+`Drochibelno Li?` or `Дрочибельно ли?` is a Telegram bot on aiogram that estimates how much you can masturbate to each photo, video, sticker, GIF and file that is sent to the group or DMs.
 Currently available only in Russian.
 Licensed under MIT.
 
 Official bot: https://t.me/drochibelno_li_bot
 
 ## Installing
-
-1. Clone the repository:
+**1.** Clone the repository:
 ```bash
 git clone https://github.com/m1lkydev/drochibelno_li
 cd drochibelno_li
 ```
 
-2. Install the libraries:
+**2.** Install the libraries:
 ```bash
 pip install aiogram aiohttp-socks python-dotenv
 ```
 
-3. Rename .env.example to .env and edit the settings in that file
+**3.** Rename `.env.example` to `.env` and edit the settings.
 
-4. Run the main.py:
+**4.** Run the main.py:
 ```bash
 python3 ./main.py # or py .\main.py for Windows
 ```
