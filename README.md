@@ -8,7 +8,7 @@ Official bot: https://t.me/drochibelno_li_bot
 ## Installing
 **1.** Clone the repository:
 ```bash
-git clone https://github.com/m1lkydev/drochibelno_li
+git clone https://github.com/cocoalabs-project/drochibelno_li
 cd drochibelno_li
 ```
 
